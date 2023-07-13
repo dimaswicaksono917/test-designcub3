@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -80px;
+  }
+
+  .page-content {
+    padding-bottom: 80px;
+  }
+
+  .footer {
+    height: 70px;
+  }
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #FFC814 !important;
+    padding: 10px 20px;
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: #ff9100 !important;
+    border-color: #ff6f00 !important;
+}
+
+h1 {
+    font-weight: 700 !important;
+    color: #232323 !important;
+}
+
+p {
+    color: #464646 !important;
+
+}
+
+section.small-section {
+    padding: 80px 0px;
+}
+
+.bg-orange {
+    background-color: #FFC814;
+}
+
+a.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.form-select {
+    margin-bottom: 10px !important;
+}
+
+.soal-1 img {
+    width: 500px;
+}
+
+button.btn-orange {
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #FFC814;
+    transition: 0.2s;
+}
+
+button.btn-orange:hover {
+    position: relative;
+    bottom: 3px;
+    background-color: #ff9100;
+}
+
+.error {
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: #970303;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.success {
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: #1c9703;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.parallax-form {
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(249, 181, 79, 0.678);
+}
+
+.parallax-form h1 {
+    color: white !important;
+}
+
+.parallax-form input[type="email"]::placeholder {
+    color: #464646;
+    opacity: 0.7;
+}
+
+.parallax-form input[type="email"] {
+    color: #ff6f00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    outline: none;
+
+}
+
+.parallax-form button {
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff6f00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.parallax-form button:hover {
+    background-color: #ff6f00;
+    color: #fff;
+}
