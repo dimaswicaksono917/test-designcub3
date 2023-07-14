@@ -1,9 +1,8 @@
 @extends('layout.master')
 
 @section('section')
-    <div class="page-wrap">
+    <section class="page-wrap small-section">
         <div class="page-content">
-            <section class="small-section">
                 <div class="container">
 
                     @if (Session::has('message'))
@@ -57,8 +56,6 @@
                         </tbody>
                     </table>
                 </div>
-            </section>
-        </div>
-
-    </div>
+            </div>
+    </section>
 @endsection
